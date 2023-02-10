@@ -31,3 +31,8 @@ WHERE `level` = 'magistrale';
 7 esercizio
 SELECT * 
 FROM `departments`
+
+8 esercizio
+SELECT COUNT(*)
+FROM `teachers`
+WHERE `phone` IS NULL;
