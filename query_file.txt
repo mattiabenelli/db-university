@@ -27,3 +27,7 @@ WHERE `hour` > TIME("14:00:00") AND `date` = DATE("2020-06-20");
 SELECT * 
 FROM `degrees`
 WHERE `level` = 'magistrale';
+
+7 esercizio
+SELECT * 
+FROM `departments`
