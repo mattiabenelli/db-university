@@ -12,3 +12,8 @@ WHERE `cfu` > 10;
 SELECT *
 FROM `students`
 WHERE YEAR(CURRENT_TIMESTAMP) - YEAR(`date_of_birth`) >= 30;
+
+4 esercizio
+SELECT *
+FROM `courses`
+WHERE `period` = 'I semestre' AND `year` = 1;
