@@ -17,3 +17,8 @@ WHERE YEAR(CURRENT_TIMESTAMP) - YEAR(`date_of_birth`) >= 30;
 SELECT *
 FROM `courses`
 WHERE `period` = 'I semestre' AND `year` = 1;
+
+5 esercizio
+SELECT * 
+FROM `exams` 
+WHERE `hour` > TIME("14:00:00") AND `date` = DATE("2020-06-20");
