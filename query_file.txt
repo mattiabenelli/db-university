@@ -11,7 +11,7 @@ WHERE `cfu` > 10;
 3 esercizio
 SELECT *
 FROM `students`
-WHERE YEAR(CURRENT_TIMESTAMP) - YEAR(`date_of_birth`) >= 30;
+WHERE TIMESTAMPDIFF(YEAR, `date_of_birth`, CURDATE()) > 30;
 
 4 esercizio
 SELECT *
