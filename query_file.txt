@@ -29,7 +29,7 @@ FROM `degrees`
 WHERE `level` = 'magistrale';
 
 7 esercizio
-SELECT * 
+SELECT COUNT(*)
 FROM `departments`
 
 8 esercizio
