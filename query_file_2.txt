@@ -39,3 +39,10 @@ FROM `degrees`
 JOIN `departments`
 ON `degrees`.`department_id` = `departments`.`id` 
 WHERE `degrees`.`department_id` =  '7' AND `degrees`.`level`= 'magistrale';
+
+es3
+SELECT `courses`.* , `course_teacher`.`teacher_id`
+FROM `courses`
+JOIN `course_teacher`
+ON `courses`.`id` = `course_teacher`.`course_id` 
+WHERE `course_teacher`.`teacher_id` = '44';
