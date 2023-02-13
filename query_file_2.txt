@@ -22,3 +22,13 @@ SELECT COUNT(id), `department_id`
 FROM `degrees` 
 WHERE `department_id`
 GROUP BY `department_id`;
+
+
+ESERCIZI JOIN
+
+es1
+SELECT `students`.*, `degrees`.`name`
+FROM `students`
+JOIN `degrees`
+ON `students`.`degree_id` = `degrees`.`id`
+WHERE `degrees`.`name` =  'Corso di Laurea in Economia';
