@@ -16,3 +16,9 @@ es3
 SELECT AVG(`vote`) ,`exam_id`
 FROM `exam_student` 
 GROUP BY `exam_id`;
+
+es4
+SELECT COUNT(id), `department_id` 
+FROM `degrees` 
+WHERE `department_id`
+GROUP BY `department_id`;
