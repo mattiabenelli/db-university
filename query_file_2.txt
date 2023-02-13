@@ -46,3 +46,10 @@ FROM `courses`
 JOIN `course_teacher`
 ON `courses`.`id` = `course_teacher`.`course_id` 
 WHERE `course_teacher`.`teacher_id` = '44';
+
+es4
+SELECT `students`.`name`, `students`.`surname`, `degrees`.* 
+FROM `students`
+JOIN `degrees`
+ON `degrees`.`id` = `students`.`degree_id` 
+ORDER BY `students`.`name` ASC;
