@@ -11,3 +11,8 @@ SELECT COUNT(id), `office_address`
 FROM `teachers` 
 WHERE `office_address` = `office_address`
 GROUP BY `office_address`;
+
+es3
+SELECT AVG(`vote`) ,`exam_id`
+FROM `exam_student` 
+GROUP BY `exam_id`;
