@@ -5,3 +5,9 @@ SELECT COUNT(id), YEAR(`enrolment_date`)
 FROM `students` 
 WHERE YEAR(`enrolment_date`)
 GROUP BY YEAR(`enrolment_date`);
+
+es2
+SELECT COUNT(id), `office_address` 
+FROM `teachers` 
+WHERE `office_address` = `office_address`
+GROUP BY `office_address`;
