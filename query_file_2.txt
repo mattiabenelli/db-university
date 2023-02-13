@@ -1,0 +1,7 @@
+ESERCIZI GROUP BY
+
+es1
+SELECT COUNT(id), YEAR(`enrolment_date`) 
+FROM `students` 
+WHERE YEAR(`enrolment_date`)
+GROUP BY YEAR(`enrolment_date`);
